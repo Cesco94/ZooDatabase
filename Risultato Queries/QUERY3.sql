@@ -1,0 +1,1 @@
+ SELECT     a.CodiceAnimale, c.Specie, c.Sesso, ETA(a.CodiceAnimale) as Eta, c.Dieta, a.CodiceGabbia, ad.CodiceFiscale, ad.Cognome FROM    Cartella AS C,    Animale AS a,    addetto AS ad WHERE    C.Dieta = 'Carnivoro'    AND ETA(a.CodiceAnimale)>10        AND a.CodiceAnimale = c.CodiceAnimale        AND a.CodiceGabbia = ad.CodiceGabbia ORDER BY CodiceGabbia;
