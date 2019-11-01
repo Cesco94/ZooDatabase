@@ -1,6 +1,5 @@
 # ZooDatabase
-Progetto di Basi di Dati del corso di Laurea triennale dell'Università degli studi di Padova.
-Il progetto è relativo alla gestione di uno Zoo fittizio collegato ad una clinica veterinaria.
+Academic project for the "Databases" course at University of Padua.
+This project is about managing a Zoo and a related Veterinary Clinic.
 ## Database
-E' stato utilizzato il RDBMS MySql. Lanciare dunque lo script di creazione del Database e delle tabelle.
-Successivamente eseguire lo script di popolamento. Vi sono ulteriori files per queries, triggers e functions.
+RDBMS MySql required. This project is just a bunch of scripts to generate tables, triggers, functions, populate and to test.
